@@ -1,5 +1,6 @@
 from itertools import combinations
 
+
 def _calculate_same_prefix_lenght(list_1: list[str], list_2: list[str]) -> int:
     lenght = 0
     for elem_1, elem_2 in zip(list_1, list_2):

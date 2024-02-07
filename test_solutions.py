@@ -78,6 +78,18 @@ def test_solution23():
         ) == '5 4 5 6 7 8 9 10 9 8 9 8 7 6 5 6 5 4 3 4'
 
 
+def test_solution31():
+    assert solution3.main(
+        '2 2 3\n'
+        'a b\n'
+        '1 1\n'
+        '2 2\n'
+        'a < 3\n'
+        'b > 1\n'
+        'b < 3'
+        ) == '4'
+
+
 def test_solution51():
     assert solution5.main(
         '3\n'
