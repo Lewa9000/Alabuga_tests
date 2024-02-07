@@ -76,3 +76,27 @@ def test_solution23():
         '-1 B 10\n'
         '-1 A 2'
         ) == '5 4 5 6 7 8 9 10 9 8 9 8 7 6 5 6 5 4 3 4'
+
+
+def test_solution51():
+    assert solution5.main(
+        '3\n'
+        '2\n'
+        '1 2\n'
+        '2\n'
+        '1 3\n'
+        '3\n'
+        '1 2 3'
+        ) == '4'
+
+
+def test_solution52():
+    assert solution5.main(
+        '3\n'
+        '1\n'
+        '5\n'
+        '2\n'
+        '1 2\n'
+        '3\n'
+        '5 1 2'
+        ) == '1'
